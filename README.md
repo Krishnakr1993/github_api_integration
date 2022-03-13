@@ -1,6 +1,6 @@
 # github_api_integration
 
-A new Flutter project.
+Application using github api, is a Simple mobile app developed using flutter in which user can see user details and repositories
 
 ## Getting Started
 
