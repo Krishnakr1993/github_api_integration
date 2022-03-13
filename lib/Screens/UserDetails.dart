@@ -2,6 +2,7 @@ import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:github_api_integration/Models/Repos.dart';
 import 'package:github_api_integration/Screens/SearchScreen.dart';
 import 'package:github_api_integration/Services/RepoList.dart';
+import 'package:github_api_integration/connectivity.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -36,6 +37,7 @@ class _UserDetailsState extends State<UserDetails> {
   }
 
   Future<List<Repo>> getAllRepoList() async {
+     checkConnectivity1();
     try {
       final response = await http.get(Uri.parse(user.repos_url));
       if (response.statusCode == 200) {

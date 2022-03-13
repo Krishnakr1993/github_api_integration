@@ -1,9 +1,11 @@
  import 'dart:convert';
 
 import 'package:github_api_integration/Models/Users.dart';
+import 'package:github_api_integration/connectivity.dart';
 import 'package:http/http.dart' as http;
 String url = 'https://api.github.com/users';
   Future<List<User>> getAllulistList() async {
+     checkConnectivity1();
     try {
       final response = await http.get(Uri.parse(url));
       if (response.statusCode == 200) {
