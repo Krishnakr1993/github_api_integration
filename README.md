@@ -2,15 +2,11 @@
 
 Application using github api, is a Simple mobile app developed using flutter in which user can see user details and repositories
 
-## Getting Started
+## ScreenShots
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Simulator Screen Shot - iPhone 11 Pro Max - 2022-03-13 at 21 42 20](https://user-images.githubusercontent.com/76158062/158068684-87259ba9-4074-4bd4-afcf-5186a70d0d0c.png)
+![Simulator Screen Shot - iPhone 11 Pro Max - 2022-03-13 at 21 42 27](https://user-images.githubusercontent.com/76158062/158068686-f44489be-02a4-439c-9e58-1fd06d60dc12.png)
+![Simulator Screen Shot - iPhone 11 Pro Max - 2022-03-13 at 21 42 36](https://user-images.githubusercontent.com/76158062/158068693-f134db5b-52a4-4d35-9ffa-034655f48f25.png)
+![Simulator Screen Shot - iPhone 11 Pro Max - 2022-03-13 at 21 42 41](https://user-images.githubusercontent.com/76158062/158068700-e0002cfa-8461-4d04-ab08-3b7744ab4d17.png)
